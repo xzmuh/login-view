@@ -1,0 +1,166 @@
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300); 
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 450px;
+    gap: 4%;
+}
+
+.logo{
+    display: flex;
+    margin-bottom: 12%;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.main-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+    font-size: 40px;
+    line-height: 64px;
+    color: #6665D3;
+}
+
+.dados-login{
+    width: 100%;
+    height: 100%;
+    background-color: #f4f6fb;
+    border-radius: 10px;
+    padding: 58px 58px 58px 58px;
+    /* border: 1px black solid; */
+    /* box-shadow: 2px 3px  3px#1c1b244a; */
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    /* border: 1px black solid; */
+}
+
+input{
+    margin-bottom: 4%;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    background: #e4eceb;
+    border-color: #dce4e3;
+    color: rgb(255, 255, 255);
+    padding: 0px 1em 0px 2.65em;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s;
+}
+
+.content > p{
+    color: #7C81DF;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8%;
+    cursor: pointer;
+}
+
+.content > p:hover{
+    transition: 0.4s;
+    color: #5f64ba;
+}
+
+input[type=text]:focus {
+    border: 2px solid #5f64ba;
+  }
+
+button{
+    width: 100%;
+    background: #7C81DF;
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 45px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background: #5f64ba;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    font-size: 14px;
+    margin-bottom: 6%;
+}
+
+label > p{
+    color: #7C81DF;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+label > p:hover {
+    color: #5f64ba;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+hr{
+    border: 1px solid #d9dbff;
+}
+
+.footer-login{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-login label{
+    margin-right: -1px;
+}
+
+.footer-login > button{
+    width: 69%;
+    height: 45px;
+    margin-left: 5%;
+    background-color: #c2c5fc;
+}
+
+.footer-login button:hover{
+    background: #5f64ba;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button i{
+    margin-right: 2%;
+}
