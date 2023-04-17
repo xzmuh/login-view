@@ -9,11 +9,11 @@
         <div class="dados-login">
             <div class="content">
                 <div>
-                    <input type="text" placeholder="E-mail">
-                    <input type="text" placeholder="Senha">
+                    <input type="text" placeholder="E-mail" id="email">
+                    <input type="text" placeholder="Senha" id="senha">
                     <p>Esqueci minha senha</p>
                     <button>Entrar</button>
-                    <label>Não tem uma conta?<p>Registre-se</p></label>
+                    <label>Não tem uma conta?<p><a [routerLink]="['/register']">Registre-se</a></p></label>
                     <hr>
                     <div class="footer-login">
                         <label>Ou entre com</label>

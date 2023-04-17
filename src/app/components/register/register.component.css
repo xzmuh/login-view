@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg, rgb(204, 216, 255) 0%, rgba(231,235,250,1) 50%, rgba(236,240,254,1) 100%);
 }
 
 .main{
@@ -45,9 +46,9 @@
     color: #6665D3;
 }
 
-.dados-login{
+.dados-register{
     width: 50%;
-    height: 100%;
+    height: 110%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -83,16 +84,10 @@ input{
 }
 
 .content > div > p{
+    margin-bottom: 6%;
+    font-size: 15px;
     color: #7C81DF;
     font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 8%;
-    cursor: pointer;
-}
-
-.content > div > p:hover{
-    transition: 0.4s;
-    color: #5f64ba;
 }
 
 input[type=text]:focus {
@@ -117,52 +112,30 @@ button:hover{
     transition: 0.4s;
 }
 
-label{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 6%;
-    font-size: 14px;
-    margin-bottom: 6%;
-}
-
-label > p{
-    color: #7C81DF;
-    font-weight: bold;
-    font-size: 14px;
-    margin-left: 5px;
-}
-
-label > p:hover {
-    color: #5f64ba;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
 hr{
     border: 1px solid #d9dbff;
+    margin-top: 5%;
+    margin-bottom: 7%;
 }
 
-.footer-login{
+.footer-register{
     margin-top: 6%;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-login label{
+.footer-register label{
     margin-right: -1px;
 }
 
-.footer-login > button{
+.footer-register > button{
     width: 69%;
     height: 45px;
     margin-left: 2%;
     background-color: #c2c5fc;
 }
 
-.footer-login button:hover{
+.footer-register button:hover{
     background: #5f64ba;
     cursor: pointer;
     transition: 0.6s;
@@ -170,6 +143,34 @@ hr{
 
 button i{
     margin-right: 2%;
+}
+
+span{
+    font-size: 13px;
+    color: black;
+    text-align: center;
+}
+
+.aceite{
+    font-size: 13px;
+    color: black;
+    letter-spacing: 0.6px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+}
+
+.aceite > span > a{
+    color: #5f64ba;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.aceite > span > a:hover{
+    color: #474a86;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 p > a{
@@ -201,7 +202,7 @@ p > a:hover{
         display: none;
     }
 
-    .dados-login{
+    .dados-register{
         width: 100%;
     }
 
@@ -209,7 +210,7 @@ p > a:hover{
         margin: 5% 0;
     }
 
-    .dados-login > div{
+    .dados-register > div{
         padding-top: 20px;
     }
 }
