@@ -33,7 +33,34 @@
     font-size: 30px;
 }
 
+.logo-ocult{
+    padding-top: 25%;
+    display: flex;
+    margin-bottom: 8%;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-ocult i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
 .main-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+    font-size: 42px;
+    line-height: 64px;
+    color: #6665D3;
+}
+
+.main-text-ocult{
     width: 50%;
     height: 100%;
     display: flex;
@@ -190,17 +217,30 @@ p > a:hover{
     transition: 0.4s;
 }
 
+.main-text-ocult{
+    display: none;
+}
+
 @media (max-width: 900px) {
 
     .main{
         width: 80%;
         padding: 50px 0;
+        height: 90%;
         display: flex;
         flex-direction: column;
     }
 
-    .main-text > h3{
+    .main-text h3{
         display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .main-text-ocult{
+        display: block;
     }
 
     .dados-register{
