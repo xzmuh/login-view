@@ -84,6 +84,7 @@ input{
 }
 
 .content > div > p{
+    height: 25px;
     margin-bottom: 6%;
     font-size: 15px;
     color: #7C81DF;
