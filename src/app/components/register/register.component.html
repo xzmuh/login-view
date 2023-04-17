@@ -2,18 +2,18 @@
     <div class="main">
         <div class="dados-register">
             <div class="content">
-                <div>
+                <form action="" method="POST" id="register">
                     <p>Registre-se</p>
-                    <input type="text" placeholder="Seu E-mail" id="email">
-                    <input type="text" placeholder="Seu nome" id="senha">
-                    <input type="text" placeholder="Sua senha" id="senha">
-                    <input type="text" placeholder="Confirme sua senha" id="senha">
+                    <input type="text" placeholder="Seu E-mail" name="email" id="email" required>
+                    <input type="text" placeholder="Seu nome" name="name" id="nome" required>
+                    <input type="text" placeholder="Sua senha" name="senha" id="senha" required>
+                    <input type="text" placeholder="Confirme sua senha" name="senha-rpt" id="senha-rpt" required>
                     <div class="aceite">
                         <span>Ao se registrar, você aceita nossos <a href="">termos de uso</a> e a nossa <a href="">política de privacidade.</a></span>
                     </div>
                     <hr>
-                    <button>Cadastrar</button>
-                </div>
+                    <button type="submit">Cadastrar</button>
+                </form>
             </div>
         </div>
         <div class="main-text">
