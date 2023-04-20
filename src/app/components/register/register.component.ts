@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
+
 export class RegisterComponent {
+
+// account: Conta = {
+//   name: '',
+//   email: '',
+//   senha: ''
+// }
 
 }
