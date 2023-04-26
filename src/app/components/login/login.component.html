@@ -11,7 +11,7 @@
                 <form action="" method="POST" id="register">
                     <input type="text" placeholder="E-mail" id="email">
                     <input type="text" placeholder="Senha" id="senha">
-                    <p>Esqueci minha senha</p>
+                    <p><a [routerLink]="['/recover-password']">Esqueci minha senha</a></p>
                     <button>Entrar</button>
                     <label>Não tem uma conta?<p><a [routerLink]="['/register']">Registre-se</a></p></label>
                     <hr>
