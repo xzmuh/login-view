@@ -7,13 +7,15 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { TermosComponent } from './components/termos/termos.component';
 import { FormsModule } from '@angular/forms';
+import { RecoverPasswordComponent } from './components/recover-password/recover-password.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    TermosComponent
+    TermosComponent,
+    RecoverPasswordComponent
   ],
   imports: [
     BrowserModule,
