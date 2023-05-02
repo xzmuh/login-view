@@ -1,0 +1,130 @@
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300); 
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+body{
+   /* background-image: url('/img/.jpg'); */
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+
+.menu-lateral {
+    background-color: #6665D3;
+    width: 270px;
+    height: 100%;
+    position: fixed;
+    /* left: -250px; */
+    transition: 0.3s;
+    /* border: 1px solid black; */
+}
+
+.center-menu{
+    padding: 10px 15px;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.menu-lateral ul{
+    list-style: none;
+}
+
+.menu-lateral ul li a{
+    color: #E1E1E6;
+    text-decoration: none;
+    font-size: 19px;
+    padding-left: 45px;
+    display: block;
+    border-radius: 10px;
+}
+.menu-lateral ul li{
+    line-height: 48px;
+}
+
+ .menu-lateral ul li a:hover{
+    background-color:#7C81DF;
+    transition: 0.3s;
+ }
+
+ .menu-lateral ul ul li a{
+    font-size: 14px;
+    font-weight: 200px;
+    padding-left: 60px;
+    background-color: #6665D3;
+ }
+
+ .menu-lateral ul ul{
+    display: none;
+ }
+
+ .menu-lateral ul .itens-side-menu.mostra{
+    display: block;
+ }
+ 
+ .menu-lateral ul .itens-anotacoes.mostra{
+    display: block;
+ }
+ 
+ .menu-lateral ul .itens-js.mostra{
+    display: block;
+ }
+ 
+ .btnAbre{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #29282D;
+    color: aliceblue;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+ }
+
+ .btnAbre:hover{
+    background-color: #3A393D;
+    transition: 0.5s;
+ }
+
+ .btnAbre span{
+    position: relative;
+    font-size: 25px;
+    left: 14px;
+    top: 13px;
+ }
+
+ .menu-lateral.mostra{
+    left: 0px;
+ }
+
+ .menu-lateral.fecha{
+    left: -250px;
+ }
+
+ .btnFecha{
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+ }
+
+ .btnFecha:hover{
+   color: #b9b9b9;
+   transition: 0.2s;
+ }
+
+ .titulo{
+   padding-top: 8px;
+   padding-bottom: 10px;
+   text-align: center;
+   color: #efefef;
+   font-size: 20px;
+ }
