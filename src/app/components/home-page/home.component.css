@@ -13,20 +13,23 @@
 }
 
 .menu-lateral {
-    background-color: #6665D3;
+    background-color: var(--menu-purple);
     width: 260px;
     height: 100%;
     position: fixed;
-    /* left: -250px; */
+    left: -260px;
     transition: 0.3s;
     /* border: 1px solid black; */
+}
+
+.menu-lateral.openMenu{
+   left: 0;
 }
 
 .center-menu{
     padding: 10px 15px;
     width: 100%;
     height: 100%;
-    border: 1px solid black;
 }
 
 .menu-lateral ul{
@@ -59,7 +62,7 @@
     font-size: 14px;
     font-weight: 200px;
     padding-left: 60px;
-    background-color: #6665D3;
+    background-color: var(--menu-purple);
  }
 
  .menu-lateral ul ul{
@@ -82,7 +85,7 @@
     position: absolute;
     top: 15px;
     left: 20px;
-    background-color: #29282D;
+    background-color: var(--menu-purple);
     color: aliceblue;
     border-radius: 100px;
     cursor: pointer;
@@ -91,7 +94,7 @@
  }
 
  .btnAbre:hover{
-    background-color: #3A393D;
+    background-color: #504fab;
     transition: 0.5s;
  }
 

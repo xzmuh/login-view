@@ -8,3 +8,7 @@
 body{
     background: linear-gradient(90deg, rgba(236,240,254,1) 0%, rgba(231,235,250,1) 50%, rgb(204, 216, 255) 100%);
 }
+
+:root{
+    --menu-purple: #6665D3;
+}

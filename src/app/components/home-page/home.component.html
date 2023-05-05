@@ -1,13 +1,13 @@
 <div class="container">
 
-    <div class="btnAbre">
+    <div class="btnAbre" (click)="openMenu();">
         <span class="fa-solid fa-bars"></span>
     </div>
     <nav class="menu-lateral">
         <div class="center-menu">
             <div class="titulo">
                 <i class="fa-solid fa-staff-snake"></i>HEALPHY'S
-                <span class="fa-solid fa-bars btnFecha"></span>
+                <span class="fa-solid fa-bars btnFecha" (click)="openMenu();"></span>
             </div>
             <ul>
                 <li class="has-subnav">
