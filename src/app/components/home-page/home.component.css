@@ -89,8 +89,8 @@
     color: aliceblue;
     border-radius: 100px;
     cursor: pointer;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
  }
 
  .btnAbre:hover{
@@ -100,9 +100,9 @@
 
  .btnAbre span{
     position: relative;
-    font-size: 25px;
-    left: 14px;
-    top: 13px;
+    font-size: 21px;
+    left: 11px;
+    top: 11px;
  }
 
  .menu-lateral.mostra{

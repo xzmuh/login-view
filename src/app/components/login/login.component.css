@@ -55,6 +55,7 @@
     border-radius: 10px;
     /* border: 1px black solid; */
     box-shadow: 2px 3px  3px#1c1b244a;
+    max-width: 75%;
 }
 
 .content{

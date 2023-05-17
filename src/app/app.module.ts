@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { RecoverPasswordComponent } from './components/recover-password/recover-password.component';
 import { HomeComponent } from './components/home-page/home.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { CollectionsComponent } from './components/collections/collections.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { LoadingComponent } from './components/loading/loading.component';
     TermosComponent,
     RecoverPasswordComponent,
     HomeComponent,
-    LoadingComponent
+    LoadingComponent,
+    CollectionsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
